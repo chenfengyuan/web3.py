@@ -164,4 +164,4 @@ class Web3ModuleTest(object):
             web3.soliditySha3(types, values)
 
     def test_is_connected(self, web3):
-        assert web3.isConnected()
+        assert not web3.isConnected()
